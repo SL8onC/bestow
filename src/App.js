@@ -8,7 +8,16 @@ export default class App extends Component {
 	constructor() {
 		super();
 
-		this.state = { beginFlip: false, items: [1, 2, 3, 4] };
+		this.state = {
+			beginFlip: false,
+			items: [
+				{ key: 1, text: 'hello' },
+				{ key: 2, text: 'hello' },
+				{ key: 3, text: 'hello' },
+				{ key: 4, text: 'hello' },
+				{ key: 5, text: 'hello' }
+			]
+		};
 		this.onClick = this.onClick.bind(this);
 	}
 	onClick() {
@@ -25,12 +34,12 @@ export default class App extends Component {
 
 				<Transition
 					items={this.state.items}
-					// keys={(item) => item.key}
+					keys={(item) => item.key}
 					from={{ transform: 'translate3d(0,-40px,0)' }}
 					enter={{ transform: 'translate3d(0,0px,0)' }}
 					leave={{ transform: 'translate3d(0,-40px,0)' }}
 				>
-					{(item) => (props) => <div style={props}>{item.text}</div>}
+					{(item) => () => <div style={{ backgroundimage: '' }} />}
 				</Transition>
 			</div>
 		);
