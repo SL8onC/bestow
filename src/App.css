@@ -5,15 +5,21 @@ body {
 .App {
 	text-align: center;
 }
+.Page-Component {
+	text-align: center;
+}
 pre {
-	font-size: 6rem;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 8rem;
+	font-family: 'Playfair Display', serif;
+}
+p {
+	font-family: 'Sacramento', cursive;
+	font-size: xx-large;
 }
 
 .App-logo {
-	height: 20vmin;
-	width: 30vmin;
+	height: 7rem;
+	width: 12rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
