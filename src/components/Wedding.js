@@ -8,9 +8,9 @@ import otherChoice from '../brideandgroomchoice/003-dove-1.png';
 // import otherSelect from '../brideandgroomchoice/001-dove.png';
 
 export default class Wedding extends Component {
-	constructor() {
-		super();
-	}
+	// constructor() {
+	// 	super();
+	// }
 	render() {
 		return (
 			<Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
