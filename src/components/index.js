@@ -1,3 +1,4 @@
 // Central Export for Components
-export { default as Navbar } from './navbar';
-export { default as UserHome } from './user-home';
+export { default as Wedding } from './Wedding.js';
+export { default as Child } from './Child.js';
+export { default as Party } from './Party.js';

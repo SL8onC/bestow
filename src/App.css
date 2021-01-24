@@ -15,11 +15,15 @@ pre {
 p {
 	font-family: 'Sacramento', cursive;
 	font-size: xx-large;
+	text-align: center;
+	margin-top: 0%;
+	color: bisque;
 }
 
 .App-logo {
 	height: 7rem;
 	width: 12rem;
+	margin-bottom: 0%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -2,9 +2,8 @@ import React from 'react';
 
 const Party = (props) => {
 	return (
-        <div>
-            {props.}
-			<button type='button'></button>
+		<div>
+			<button type='button'>button</button>
 		</div>
 	);
 };

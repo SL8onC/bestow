@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Spring } from 'react-spring';
-import brideChoice from './brideandgroomchoice/001-bride.png';
-import brideSelect from './brideandgroomchoice/002-bride-1.png';
-import groomChoice from './brideandgroomchoice/003-groom.png';
-import groomSelect from './brideandgroomchoice/004-groom-1.png';
-import otherChoice from './brideandgroomchoice/003-dove-1.png';
-import otherSelect from './brideandgroomchoice/001-dove.png';
+import { Spring } from 'react-spring/renderprops';
+import brideChoice from '../brideandgroomchoice/001-bride.png';
+import groomChoice from '../brideandgroomchoice/003-groom.png';
+import otherChoice from '../brideandgroomchoice/003-dove-1.png';
+// import groomSelect from '../brideandgroomchoice/004-groom-1.png';
+// import brideSelect from '../brideandgroomchoice/002-bride-1.png';
+// import otherSelect from '../brideandgroomchoice/001-dove.png';
 
 export default class Wedding extends Component {
 	constructor() {
