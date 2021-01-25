@@ -41,6 +41,110 @@ p {
 		animation: App-logo-spin infinite 20s linear;
 	}
 }
+@media only screen and (max-width: 568px) {
+	pre {
+		font-size: 3rem;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 1em;
+	}
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+	p {
+		font-family: 'Sacramento', cursive;
+		font-size: x-large;
+		text-align: center;
+		color: bisque;
+		padding: 0px;
+		margin: 0%;
+	}
+	.App-logo {
+		height: 2.4rem;
+		width: 4rem;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+}
+@media only screen and (min-width: 568px) {
+	pre {
+		font-size: 3rem;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 1em;
+	}
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+	p {
+		font-family: 'Sacramento', cursive;
+		font-size: x-large;
+		text-align: center;
+		color: bisque;
+		padding: 0px;
+		margin: 0%;
+	}
+	.App-logo {
+		height: 2.4rem;
+		width: 4rem;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	pre {
+		font-size: 5rem;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 1em;
+	}
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+	p {
+		font-family: 'Sacramento', cursive;
+		font-size: x-large;
+		text-align: center;
+		color: bisque;
+		padding: 0px;
+		margin: 0%;
+	}
+	.App-logo {
+		height: 4rem;
+		width: 6rem;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	pre {
+		font-size: 8rem;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 1em;
+	}
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+	p {
+		font-family: 'Sacramento', cursive;
+		font-size: xx-large;
+		text-align: center;
+		color: bisque;
+		padding: 0px;
+		margin: 0%;
+	}
+	.App-logo {
+		height: 7rem;
+		width: 12rem;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+}
 
 .App-header {
 	/* background-color: #282c34; */
