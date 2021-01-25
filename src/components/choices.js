@@ -12,29 +12,14 @@ export default class Choices extends Component {
 				<h2>What's the occasion?</h2>
 				<span>
 					<Link to='/wedding'>
-						<img
-							src={weddingChoice}
-							className='App-logo'
-							alt='logo'
-							onClick={this.onClick}
-						/>
+						<img src={weddingChoice} className='App-logo' alt='Wedding' />
 					</Link>
 					<br />
 					<Link to='/party'>
-						<img
-							src={partyChoice}
-							className='App-logo'
-							alt='logo'
-							onClick={this.onClick}
-						/>
+						<img src={partyChoice} className='App-logo' alt='General Celebration' />
 					</Link>
 					<Link to='/child'>
-						<img
-							src={childChoice}
-							className='App-logo'
-							alt='logo'
-							onClick={this.onClick}
-						/>
+						<img src={childChoice} className='App-logo' alt='New Child' />
 					</Link>
 				</span>
 			</div>
