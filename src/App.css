@@ -57,3 +57,7 @@ p {
 		transform: rotate(360deg);
 	}
 } */
+
+.no-outline-on-focus {
+	outline: none;
+}
