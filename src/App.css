@@ -2,6 +2,9 @@ body {
 	background-color: #0c6d5a;
 }
 
+.main {
+	z-index: 1000;
+}
 .App {
 	text-align: center;
 }
@@ -11,6 +14,11 @@ body {
 pre {
 	font-size: 8rem;
 	font-family: 'Playfair Display', serif;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-style: italic;
 }
 p {
 	font-family: 'Sacramento', cursive;
