@@ -1,10 +1,16 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 const Party = (props) => {
 	return (
-		<div>
-			<button type='button'>button</button>
-		</div>
+		<motion.div
+			exit={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			initial={{ opacity: 0 }}
+			transition={{ duration: 1.5 }}
+		>
+			<p>I love you when you party</p>
+		</motion.div>
 	);
 };
 

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Choices } from '../components/';
 import { Redirect, Link } from 'react-router-dom';
 import { Spring, Transition, animated } from 'react-spring/renderprops';
+import { motion } from 'framer-motion';
 
 export default class LandingPage extends Component {
 	constructor() {
@@ -48,7 +49,12 @@ export default class LandingPage extends Component {
 		if (redirect) return <Redirect to={redirect} />;
 
 		return (
-			<>
+			<motion.div
+				exit={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				initial={{ opacity: 0 }}
+				transition={{ duration: 1.5 }}
+			>
 				<Spring
 					from={{ opacity: 0, marginTop: -60 }}
 					to={{ opacity: 1, marginTop: 0 }}
@@ -58,11 +64,7 @@ export default class LandingPage extends Component {
 						<div className='App' style={props}>
 							<header className='App-header'>
 								{/* prettier-ignore */}
-								<pre>B E S T
-									<Link to='/bestow'>
-										<img src={logo} tabIndex="0" className={enableOutline ? 'App-logo' : 'no-outline-on-focus App-logo'} alt='logo' onMouseEnter={() => mouseEnter()}onMouseLeave={()=>mouseLeave()} />
-									</Link>
-									W</pre>
+								<pre>B E S T<Link to='/bestow'><img src={logo} tabIndex="0" className={enableOutline ? 'App-logo' : 'no-outline-on-focus App-logo'} alt='logo' onMouseEnter={() => mouseEnter()}onMouseLeave={()=>mouseLeave()} /></Link>W</pre>
 							</header>
 							<Spring
 								from={{ opacity: 0, marginTop: 0 }}
@@ -95,7 +97,7 @@ export default class LandingPage extends Component {
 						))
 					}
 				</Transition>
-			</>
+			</motion.div>
 		);
 	}
 }
