@@ -14,11 +14,19 @@ body {
 pre {
 	font-size: 8rem;
 	font-family: 'Playfair Display', serif;
+	width: 1000px;
 }
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
 	font-style: italic;
+}
+h2.App {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 59px;
+	margin-top: 23vmin;
 }
 p {
 	font-family: 'Sacramento', cursive;
@@ -39,6 +47,14 @@ p {
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
+	}
+}
+@media only screen and (max-height: 568px) {
+	h2.App {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-style: italic;
+		margin-top: 15vmin;
 	}
 }
 @media only screen and (max-width: 568px) {
