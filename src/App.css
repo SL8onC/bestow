@@ -16,6 +16,11 @@ pre {
 	font-family: 'Playfair Display', serif;
 	width: 1000px;
 }
+h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	color: bisque;
+}
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;

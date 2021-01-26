@@ -4,10 +4,6 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Frame, Stack } from 'framer';
 
-import weddingChoice from '../choicepictures/004-engagement-1.png';
-import partyChoice from '../choicepictures/001-confetti.png';
-import childChoice from '../choicepictures/005-toys.png';
-
 const svgVariant = {
 	hidden: { rotate: -60, opacity: 0 },
 	visible: { rotate: 0, opacity: 1, transition: { duration: 2 } }
@@ -34,7 +30,7 @@ export default class Choices extends Component {
 				<div center>
 					<Stack gap={90} direction='horizontal' center x={-303}>
 						<Frame
-							whileHover={{ scale: 1.15 }}
+							whileHover={{ scale: 1.05 }}
 							background='none'
 							className='App'
 							initial={{ opacity: 0 }}
@@ -89,7 +85,7 @@ export default class Choices extends Component {
 						<br />
 
 						<Frame
-							whileHover={{ scale: 1.15 }}
+							whileHover={{ scale: 1.05 }}
 							background='none'
 							center
 							initial={{ opacity: 0 }}
@@ -431,7 +427,7 @@ export default class Choices extends Component {
 							</Link>
 						</Frame>
 						<Frame
-							whileHover={{ scale: 1.15 }}
+							whileHover={{ scale: 1.05 }}
 							background='none'
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
